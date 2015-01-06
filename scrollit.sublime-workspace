@@ -1,0 +1,611 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Vi",
+				"VIDEO_STREAM"
+			],
+			[
+				"Q",
+				"QUALITY_LEVEL"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bra",
+				"brandLogo"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"navBar",
+				"navBarLogoExp"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"so",
+				"socialMediaIcon"
+			],
+			[
+				"navBa",
+				"navBarItem"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"fixi",
+				"fixItCallback"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"navB",
+				"navBar"
+			],
+			[
+				"nav",
+				"navBarlLogo"
+			],
+			[
+				"w",
+				"width	.width"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"fix",
+				"fixItCallback"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"sl",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"na",
+				"navBarItem"
+			],
+			[
+				"fi",
+				"fixitWrapper"
+			],
+			[
+				"append",
+				"appendTo	.appendTo()"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"ele",
+				"elementToFix"
+			],
+			[
+				"brek",
+				"breakPointElement"
+			],
+			[
+				"outerH",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"fixit",
+				"fixitWrapper"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"wr",
+				"wrapper"
+			],
+			[
+				"off",
+				"offsetLeft"
+			],
+			[
+				"offset",
+				"offsetLeft"
+			],
+			[
+				"o",
+				"offset	.offset"
+			],
+			[
+				"d",
+				"delay	.delay()"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass"
+			],
+			[
+				"sub",
+				"subMenuOffsetTop"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"su",
+				"subMenuOffset"
+			],
+			[
+				"subMenu",
+				"subMenuOffset"
+			],
+			[
+				"offs",
+				"offset	.offset"
+			],
+			[
+				"resiz",
+				"resizeNavBar"
+			],
+			[
+				"wi",
+				"width	.width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"ch",
+				"children	.children()"
+			],
+			[
+				"focu",
+				"focus"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"backButton"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"span",
+				"span_1_of_4"
+			],
+			[
+				"spa",
+				"span_1_of_4"
+			],
+			[
+				"sta",
+				"Straße"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"bran",
+				"brandLogo"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"img",
+				"imgs"
+			],
+			[
+				"sli",
+				"slideshow"
+			],
+			[
+				"aft",
+				"after"
+			],
+			[
+				"after",
+				"page-break-after"
+			],
+			[
+				"im",
+				"img"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6424,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/umberto/bin/mpg2mp4.sh",
+		"/Users/umberto/bin/ripDvdTrack.sh",
+		"/Users/umberto/project/radsportSchneider/web/master/js/main.js",
+		"/Users/umberto/project/accente/web/master/index.html",
+		"/Users/umberto/project/radsportSchneider/web/master/js/scrollit.js",
+		"/Users/umberto/project/cormedics/web/index.html",
+		"/Users/umberto/project/cormedics/web/css/foundation.css",
+		"/Users/umberto/project/cormedics/web/css/normalize.css",
+		"/home/umberto/bin/ripDvdTrack.sh",
+		"/Users/umberto/project/myFoundationApp/myApp/package.json",
+		"/Users/umberto/Documents/test/buildTemplate2/Makefile",
+		"/Users/umberto/Documents/test/buildTemplate2/src/main.c",
+		"/Users/umberto/project/lineaVerde/web/legal.html",
+		"/home/umberto/desktop/dusa-tec.txt",
+		"/home/umberto/project/accente/web/master/accente.sublime-project",
+		"/home/umberto/project/radsportSchneider/web/master/radsportSchneider.sublime-project",
+		"/home/umberto/project/accente/web/master/radsportSchneider.sublime-project",
+		"/home/umberto/project/radsportSchneider/web/master/index.html",
+		"/home/umberto/project/accente/web/master/index.html",
+		"/home/umberto/project/accente/web/master/css/main.css",
+		"/home/umberto/project/accente/web/master/js/main.js",
+		"/home/umberto/project/accente/web/master/js/fixit.js",
+		"/home/umberto/project/accente/web/master/css/slideshow.css",
+		"/home/umberto/project/accente/web/master/js/slideshow.js",
+		"/home/umberto/project/accente/web/preview/js/scrollit.js",
+		"/home/umberto/project/accente/web/preview/js/main.js",
+		"/home/umberto/project/accente/web/preview/js/fixit.js",
+		"/home/umberto/project/accente/web/preview/css/main.css",
+		"/home/umberto/project/accente/web/preview/index.html",
+		"/home/umberto/eMailHack.txt",
+		"/home/umberto/project/accente/web/js/scrollit.js",
+		"/home/umberto/project/accente/web/js/fixit.js",
+		"/home/umberto/project/accente/web/js/main.js",
+		"/home/umberto/project/accente/web/js/slideshow.js",
+		"/home/umberto/project/accente/web/css/main.css",
+		"/home/umberto/project/accente/web/css/fixit.css",
+		"/home/umberto/project/accente/web/index_preview.html",
+		"/home/umberto/project/accente/web/legal.html",
+		"/home/umberto/project/accente/web/css/col.css",
+		"/home/umberto/project/accente/web/css/7cols.css",
+		"/home/umberto/project/accente/web/js/scrolld.min.js",
+		"/home/umberto/project/accente/web/index.html",
+		"/home/umberto/project/accente/web/index_.html",
+		"/home/umberto/project/accente/web/css/slideshow.css",
+		"/home/umberto/project/accente/web/css/styles.css",
+		"/home/umberto/project/accente/web/js/scroller.js",
+		"/home/umberto/project/accente/web/css/smint.css",
+		"/home/umberto/project/accente/web/css/stickup.css",
+		"/home/umberto/project/accente/web/js/main.js_",
+		"/home/umberto/downloads/inkscape_iconfont_canvas_template.svg",
+		"/home/umberto/project/accente/web/css/12cols.css",
+		"/home/umberto/project/accente/web/.htpasswd",
+		"/home/umberto/project/accente/web/.htaccess",
+		"/home/umberto/project/accente/web/css/9cols.css",
+		"/home/umberto/project/accente/web/css/5cols.css",
+		"/home/umberto/project/accente/web/css/11cols.css",
+		"/home/umberto/project/accente/web/css/4cols.css",
+		"/home/umberto/project/accente/web/css/3cols.css",
+		"/home/umberto/project/lineaVerde/web/index.html",
+		"/home/umberto/project/lineaVerde/web/css/common.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mplayer",
+			"ö",
+			"ä",
+			"a",
+			"ü",
+			"height: 100%;",
+			"clearfix",
+			"\"></",
+			"img",
+			".clearFix",
+			"scrolldNavBar",
+			"scrolldDistance",
+			"scrolldTop",
+			"scrolldNavBar",
+			"of_7",
+			"#contact",
+			"\n                ",
+			"                \n",
+			"lastMenuItem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&ouml;",
+			"&auml;",
+			"&uuml;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/umberto/project/radsportSchneider/web/master/radsportSchneider.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}

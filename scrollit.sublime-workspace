@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
 				"Vi",
 				"VIDEO_STREAM"
 			],
 			[
 				"Q",
 				"QUALITY_LEVEL"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"li",
@@ -58,10 +66,6 @@
 			[
 				"in",
 				"inline-block"
-			],
-			[
-				"back",
-				"background-repeat"
 			],
 			[
 				"se",
@@ -252,10 +256,6 @@
 				"background-color"
 			],
 			[
-				"s",
-				"script	Tag"
-			],
-			[
 				"fa",
 				"fadeOut	.fadeOut()"
 			],
@@ -351,7 +351,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6424,
+				"buffer_size": 4168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/umberto/project/accente/web/master/index.html",
+			"settings":
+			{
+				"buffer_size": 22089,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/scrollit.css",
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scrollit.js",
+			"settings":
+			{
+				"buffer_size": 384,
 				"line_ending": "Unix"
 			}
 		}
@@ -397,9 +421,9 @@
 	"file_history":
 	[
 		"/Users/umberto/bin/mpg2mp4.sh",
+		"/Users/umberto/project/accente/web/master/index.html",
 		"/Users/umberto/bin/ripDvdTrack.sh",
 		"/Users/umberto/project/radsportSchneider/web/master/js/main.js",
-		"/Users/umberto/project/accente/web/master/index.html",
 		"/Users/umberto/project/radsportSchneider/web/master/js/scrollit.js",
 		"/Users/umberto/project/cormedics/web/index.html",
 		"/Users/umberto/project/cormedics/web/css/foundation.css",
@@ -473,6 +497,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">",
+			"<",
+			"      <",
+			"<",
+			">",
+			"<",
 			"mplayer",
 			"ö",
 			"ä",
@@ -494,11 +524,15 @@
 			"lastMenuItem"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
 			"&ouml;",
 			"&auml;",
 			"&uuml;"
@@ -507,12 +541,12 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -520,15 +554,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6424,
+						"buffer_size": 4168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3884,
+								3884
 							]
 						],
 						"settings":
@@ -536,6 +570,86 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 626.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/umberto/project/accente/web/master/index.html",
+					"settings":
+					{
+						"buffer_size": 22089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21971,
+								21989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3806.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/scrollit.css",
+					"settings":
+					{
+						"buffer_size": 642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/scrollit.js",
+					"settings":
+					{
+						"buffer_size": 384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

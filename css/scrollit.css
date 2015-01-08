@@ -1,0 +1,47 @@
+body {
+    background-color: #222222;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.contain-to-grid {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.top-bar {
+    background: none repeat scroll 0 0 #4AF4BD;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: none repeat scroll 0 0 #4AF4BD;
+}
+
+.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+    background: none repeat scroll 0 0 #4AF4BD;
+    color: #C7FF1B;
+}
+
+
+
+#intro {
+	background-color: #3C84B0;
+}
+
+#howto {
+	background-color: #f0f0f0;
+}
+
+#credits {
+	background-color: #C7FF1B;
+}
+
+#footer {
+	text-align: center;
+}
+
+#footer h5 {
+	color: #ffffff;
+}

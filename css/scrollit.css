@@ -1,47 +1,92 @@
-body {
-    background-color: #222222;
+body * {
+    font-family: "Ubuntu Condensed",sans-serif;
 }
 
 h1 {
 	text-align: center;
 }
 
+nav h1, .title-area .name h1 {
+	font-size: 1.5em;
+}
 
-.contain-to-grid {
-    background: none repeat scroll 0 0 transparent;
+a {
+    color: #ffffff;
 }
 
 .top-bar {
-    background: none repeat scroll 0 0 #4AF4BD;
+	font-size: 1em;
 }
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+    width: 100%;
+}
+
+.top-bar-section ul li {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.top-bar-section ul li > a {
+    font-family: "Ubuntu Condensed",sans-serif;
+}
+
+.top-bar.expanded .title-area {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.contain-to-grid {
+    background: none repeat scroll 0 0 #345678;
+}
+
+
+.top-bar {
+    background: none repeat scroll 0 0 transparent;
+}
+
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: none repeat scroll 0 0 #4AF4BD;
+    background: none repeat scroll 0 0 transparent;
 }
 
+
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-    background: none repeat scroll 0 0 #4AF4BD;
+    background: none repeat scroll 0 0 transparent;
     color: #C7FF1B;
+}
+
+.column, .columns {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
 
 #intro {
+	padding: 5em 5em 5em 5em;
 	background-color: #3C84B0;
 }
 
 #howto {
+	padding: 5em 5em 5em 5em;
 	background-color: #f0f0f0;
 }
 
 #credits {
+	padding: 5em 5em 5em 5em;
 	background-color: #C7FF1B;
 }
 
 #footer {
+	padding: 0;
+	background-color: #111111;
 	text-align: center;
 }
 
 #footer h5 {
+	padding: 5em 5em 5em 5em;
 	color: #ffffff;
+}
+
+#navigation div .contain-to-grid {
+	min-height: 100px;
 }

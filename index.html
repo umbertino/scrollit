@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>scrollit.js A JQuery-Plugin</title>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/scrollit.css" />
   <link rel="stylesheet" href="css/highlight/default.css">
@@ -12,120 +13,137 @@
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
-<body>
+<body id="top">
 
   <!-- Here goes the fixed navigation bar -->
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="contain-to-grid fixed"><nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="#">scrollit.js</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-        </ul>
-        
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li class="active"><a href="#intro" onclick="scrollItWrapper('#intro'); return false;">About</a></li>
-            <li class="active"><a href="#howto" onclick="scrollItWrapper('#howto'); return false;">How to use</a></li>
-            <li class="active"><a href="#credits" onclick="scrollItWrapper('#credits'); return false;">Credits</a></li>
-          </ul>
-        </section>
-      </nav>
+  <div id="navigation">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="contain-to-grid fixed">
+          <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+              <li class="name">
+                <h1><a href="top" onclick="scrollItWrapper('#top'); return false;">scrollit.js</a></h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
+            
+            <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <ul class="right">
+                <li class="active">
+                  <h1><a href="#intro" onclick="scrollItWrapper('#intro'); return false;">About</a></h1>
+                </li>
+                <li class="active">
+                  <h1><a href="#howto" onclick="scrollItWrapper('#howto'); return false;">How to use</a></h1>
+                </li>
+                <li class="active">
+                  <h1><a href="#credits" onclick="scrollItWrapper('#credits'); return false;">Credits</a></h1>
+                </li>
+              </ul>
+            </section>
+          </nav>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="row" id="intro">
-  <div class="large-12 columns">
-    <h1>Introducing scrollit.js</h1>
-    <p>scrollit.js is a very simple jquery script that smoothly scrolls to a target. It increases user experience and makes your website a little bit nicer. Beside jquey you additionaly need jquery-ui for easing effects. scrollit.js is easy to use and works allmost out of the box. See the howto for details.</p>
+  <div id="intro">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Introducing scrollit.js</h1>
+        <p>scrollit.js is a very simple jquery script that smoothly scrolls to a target. It increases user experience and makes your website a little bit nicer. Beside jquey you additionaly need jquery-ui for easing effects. scrollit.js is easy to use and works allmost out of the box. See the howto for details.</p>
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="row" id="howto">
-  <div class="large-12 columns">
-    <h1>How to integrate scrollit.js</h1>
-    <p>
-      This example is how I integrated it on this page. You may check the source-code, too.<br>
-      First <i>id</i>entify your targets ...
-    </p>
-    <p>
-      <pre><code>
-...        
-&lt;div class="row" id="credits"&gt;...&lt;/div&gt;
-&lt;div class="row" id="credits"&gt;...&lt;/div&gt;
-&lt;div class="row" id="credits"&gt;...&lt;/div&gt;
-...
-     </code></pre>
-    </p>
+  <div id="howto">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>How to integrate scrollit.js</h1>
+        <p>
+          This example is how I integrated it on this page. You may check the source-code, too.<br>
+          First <i>id</i>entify your targets ...
+        </p>
+        <p>
+          <pre><code>
+            ...        
+            &lt;div class="row" id="intro"&gt;...&lt;/div&gt;
+            &lt;div class="row" id="howto"&gt;...&lt;/div&gt;
+            &lt;div class="row" id="credits"&gt;...&lt;/div&gt;
+            ...
+          </code></pre>
+        </p>
+  
+        <p>
+          ... and then add <i>href</i> and <i>onclick</i> to the corresponding links.
+        </p>
+  
+        <p>
+          <pre><code>
+            ...        
+            &lt;ul class="right"&gt;
+            &lt;li class="active"&gt;&lt;a href="#intro" onclick="scrollItWrapper('#intro'); return false;"&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="active"&gt;&lt;a href="#howto" onclick="scrollItWrapper('#howto'); return false;"&gt;How to use&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="active"&gt;&lt;a href="#credits" onclick="scrollItWrapper('#credits'); return false;"&gt;Credits&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            ...
+          </code></pre>  
+        </p>
+        
+        <p>
+          Finally load scrollit.js just before the body ends ...
+        </p>
+  
+        <p>
+          <pre><code>
+            ...
+            &lt;script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"&gt;&lt;/script&gt;
+            &lt;script src="js/foundation.min.js"&gt;&lt;/script&gt;
+            &lt;script src="js/scrollit.js"&gt;&lt;/script&gt;
+            &lt;script&gt;
+            $(document).foundation();
+            &lt;/script&gt;
+            &lt;/body&gt;
+            ...
+          </code></pre>
+        </p>
+  
+        <p>
+          ... and that's it with your html-file!
+        </p>
+  
+        <p>
+          Don't forget to put scrollit.js into your js-directory.
+        </p>
+  
+      </div>
+    </div>
+  </div>
 
-    <p>
-      ... and then add <i>href</i> and <i>onclick</i> to the corresponding links.
-    </p>
+  <div id="credits">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Credits</h1>
+        <p>scrollit.js was initiated by Umberto Cancedda and is licensed under the terms of the MIT License. </p>
+      </div>
+    </div>
+  </div>
 
-    <p>
-      <pre><code>
-...        
-&lt;ul class="right"&gt;
-  &lt;li class="active"&gt;&lt;a href="#intro" onclick="scrollItWrapper('#intro'); return false;"&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li class="active"&gt;&lt;a href="#howto" onclick="scrollItWrapper('#howto'); return false;"&gt;How to use&lt;/a&gt;&lt;/li&gt;
-  &lt;li class="active"&gt;&lt;a href="#credits" onclick="scrollItWrapper('#credits'); return false;"&gt;Credits&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-...
-      </code></pre>  
-    </p>
-      
-    <p>
-      Finally load scrollit.js just before the body ends ...
-    </p>
+  <div id="footer">
+    <div class="row">
+      <div class="large-12 columns">
+        <h5>scrollit.js 2015</h5>
+      </div>
+    </div>
+  </div>
 
-    <p>
-      <pre><code>
-...
-&lt;script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"&gt;&lt;/script&gt;
-&lt;script src="js/foundation.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/scrollit.js"&gt;&lt;/script&gt;
-&lt;script&gt;
+  <script src="js/vendor/jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/scrollit.js"></script>
+  <script>
   $(document).foundation();
-&lt;/script&gt;
-&lt;/body&gt;
-...
-      </code></pre>
-    </p>
-
-    <p>
-      ... and that's it with your html-file!
-    </p>
-
-    <p>
-      Don't forget to put scrollit.js into your js-directory.
-    </p>
-
-  </div>
-</div>
-
-<div class="row" id="credits">
-  <div class="large-12 columns">
-    <h1>Credits</h1>
-    <p>scrollit.js was initiated by Umberto Cancedda and is licensed under the terms of the MIT License. </p>
-  </div>
-</div>
-
-<div class="row" id="footer">
-  <div class="large-12 columns">
-    <h5>scrollit.js 2015</h5>
-  </div>
-</div>
-
-<script src="js/vendor/jquery.js"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-<script src="js/foundation.min.js"></script>
-<script src="js/scrollit.js"></script>
-<script>
-  $(document).foundation();
-</script>
+  </script>
 </body>
 </html>

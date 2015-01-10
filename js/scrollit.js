@@ -1,7 +1,7 @@
 function scrollItWrapper(element)
 {
   var easing = "easeInOutExpo";
-  var offset = -60;
+  var offset = -90;
 
   scrollIt(element, easing, offset, 1500, function() {});
 }
